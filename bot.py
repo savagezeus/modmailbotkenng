@@ -102,7 +102,7 @@ class Modmail(commands.Bot):
         else:
             to_use = bot.token.strip('"')
         try:
-            bot.run(to_use, activity=discord.Game(os.getenv('STATUS')), reconnect=True)
+            bot.run(to_use, activity=listening to dm(os.getenv('STATUS')), reconnect=True)
         except Exception as e:
             raise e
 
